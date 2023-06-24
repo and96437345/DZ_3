@@ -17,6 +17,7 @@ h1 {
     font-size: 1.6em;
     font-weight: bolder;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -31,8 +32,6 @@ h1 {
     border-color: #202020;
     border-radius: 10%;
     margin: 10px;
-
-
 }
 
 img {

@@ -1,0 +1,40 @@
+.main {
+    font-family: 'Arial', sans-serif;
+    margin: 30px 20px;
+    max-width: 320px;
+    max-height: fit-content;
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    max-width: fit-content;
+    max-height: fit-content;
+    background-color: #808080;
+    color: #fff;   
+}
+
+li {
+    display: flex;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.txt-item {
+    font-size: 10px;
+    line-height: 13px;
+    margin: auto 0;
+    padding-right: 70px;
+}
+
+li:hover {
+    background-color: #5a5a5a;
+    transition: opacity .2s, background-color .5s;
+    transition-delay: .1s;
+}
